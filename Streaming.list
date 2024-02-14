@@ -1,7 +1,7 @@
-# NAME: rules
+# NAME: streaming rules
 # AUTHOR: luj3
-# REPO: 
-# UPDATED: 2024-02-14 23:53:00
+# REPO: https://raw.githubusercontent.com/lujiang-2020/rules/Surge/Streaming.list
+# UPDATED: 2024-02-15 00:11:00
 
 # oracle
 DOMAIN-SUFFIX,hcaptcha.com
