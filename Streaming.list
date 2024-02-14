@@ -1,0 +1,20 @@
+# NAME: rules
+# AUTHOR: luj3
+# REPO: 
+# UPDATED: 2024-02-14 23:53:00
+
+# oracle
+DOMAIN-SUFFIX,hcaptcha.com
+
+# 香色闺阁
+DOMAIN-SUFFIX,ikanmh.xyz
+DOMAIN-SUFFIX,xchina.co
+DOMAIN-SUFFIX,ccrip.com
+DOMAIN-SUFFIX,mxs11.cc
+
+# emby ssrdog porn
+DOMAIN-SUFFIX,njav.tv
+DOMAIN-SUFFIX,av01.tv
+DOMAIN,dog.ssrdog.com
+DOMAIN,789.123456.al
+DOMAIN-KEYWORD,emby
