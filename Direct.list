@@ -1,0 +1,12 @@
+# NAME: direct rules
+# AUTHOR: luj3
+# REPO: https://raw.githubusercontent.com/lujiang-2020/rules/Surge/direct.list
+# UPDATED: 2024-02-15 00:13:00
+
+# 美团 京东 qq
+DOMAIN-SUFFIX,d.meituan.net,DIRECT // Added for: route-stats.d.meituan.net:443
+DOMAIN-SUFFIX,speedv6.m.jd.com,DIRECT // Added for: speedv6.m.jd.com:443
+DOMAIN-SUFFIX,qq.com,DIRECT
+
+# oracle
+DOMAIN-KEYWORD,oracle,DIRECT
