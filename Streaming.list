@@ -1,10 +1,10 @@
 # NAME: streaming rules
 # AUTHOR: luj3
 # REPO: https://raw.githubusercontent.com/lujiang-2020/rules/Surge/Streaming.list
-# UPDATED: 2024-02-15 00:11:00
+# UPDATED: 2024-02-18 15:34:40
 
 # oracle
-DOMAIN-SUFFIX,hcaptcha.com
+# DOMAIN-SUFFIX,hcaptcha.com
 
 # 香色闺阁
 DOMAIN-SUFFIX,ikanmh.xyz
