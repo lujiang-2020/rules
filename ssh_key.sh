@@ -23,8 +23,10 @@ cat "$SSH_DIR/id_rsa.pub" >> $AUTH_KEYS
 chmod 600 $AUTH_KEYS
 
 # 修改SSH配置
-sed -i 's/#PubkeyAuthentication yes/PubkeyAuthentication yes/' $SSH_CONFIG
-sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/' $SSH_CONFIG
+sed -i 's/^#Port 22/Port 1936/' /etc/ssh/sshd_config
+sed -i 's/^#PubkeyAuthentication yes/PubkeyAuthentication yes/' /etc/ssh/sshd_config
+sed -i 's/^PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+
 
 # 重启SSH服务
 systemctl restart sshd
